@@ -1,0 +1,10 @@
+#!/bin/bash
+
+NAMESPACE="rishabh050189"
+sudo docker push $NAMESPACE/front-end-ui:latest
+sudo docker push $NAMESPACE/microservice-auth:latest
+sudo docker push $NAMESPACE/microservice-group:latest
+sudo docker push $NAMESPACE/microservice-notification:latest
+sudo docker push $NAMESPACE/microservice-notification-v1-1:latest
+sudo docker push $NAMESPACE/microservice-occasion:latest
+sudo docker push $NAMESPACE/microservice-user:latest
