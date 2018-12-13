@@ -161,7 +161,7 @@ spec:
     spec:
       containers:
       - name: microservice-occasion
-        image: rishabh051089/microservice-occasion:latest
+        image: rishabh050189/microservice-occasion:latest
         ports:
         - containerPort: 9443
 ---
